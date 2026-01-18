@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #0f5132, #198754);
+            color: white;
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        img {
+            width: 280px;
+            border-radius: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #20c997;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div>
+        <h1>Mình là Quyên</h1>
+        <h2>I am a DEVELOPER</h2>
+        <p>"Học lập trình là hành trình dài."</p>
+        <button>Donate</button>
+    </div>
+    <img src="https://i.imgur.com/4ZQZ4ZQ.png">
+</div>
+</body>
+</html>
